@@ -15,9 +15,6 @@
 
                     <x-primary-button tag="a" href="{{ route('book.export') }}" target="_blank">Export
                         Excel</x-primary-button>
-                    <x-primary-button x-data=""
-                        x-on:click.prevent="$dispatch('open-modal', 'import-book')">{{ __('Import Excel') }}</x-primary-button>
-
                     <x-table>
                         <x-slot name="header">
                             <tr class="py-10">
